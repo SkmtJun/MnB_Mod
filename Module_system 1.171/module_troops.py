@@ -1808,6 +1808,12 @@ troops = [
 
 # Add Extra Quest NPCs below this point  
 
+###NewModBegin
+  ["new_troop","New Troop","New Troops",tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_helmet,no_scene,reserved,fac_commoners,
+   [itm_sword_medieval_a,itm_fighting_axe,itm_leather_jerkin,itm_skullcap,itm_hide_boots],
+   str_9|agi_9|level(5),wp(80),knows_common,mercenary_face_1, mercenary_face_2],
+###NewModEnd
+
   ["local_merchant","Local Merchant","Local Merchants",tf_guarantee_boots|tf_guarantee_armor, 0,0, fac_commoners,[itm_leather_apron,itm_leather_boots,itm_butchering_knife],def_attrib|level(5),wp(40),knows_power_strike_1, merchant_face_1, merchant_face_2],
   ["tax_rebel","Peasant Rebel","Peasant Rebels",tf_guarantee_armor,0,reserved,fac_commoners,
    [itm_cleaver,itm_knife,itm_pitch_fork,itm_sickle,itm_club,itm_stones,itm_leather_cap,itm_felt_hat,itm_felt_hat,itm_linen_tunic,itm_coarse_tunic,itm_nomad_boots,itm_wrapping_boots],
@@ -2627,6 +2633,11 @@ troops = [
 
 
 #Troop upgrade declarations
+
+###NewModBegin
+upgrade(troops,"new_troop","watchman")
+
+###NewModEnd
 
 upgrade(troops,"farmer", "watchman")
 upgrade(troops,"townsman","watchman")
