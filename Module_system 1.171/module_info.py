@@ -3,4 +3,4 @@
 # Make sure you use forward slashes (/) and NOT backward slashes (\)
 
 #export_dir = "../WOTS/Modules/Native/"
-export_dir = "E:/MnB Mod/Native_My_Mod/"
+export_dir = "D:/Mount&Blade Warband/Modules/Native_My_Mod/"
