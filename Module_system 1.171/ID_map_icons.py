@@ -187,3 +187,4 @@ icon_map_flag_kingdom_e = 185
 icon_map_flag_kingdom_f = 186
 icon_banner_136 = 187
 icon_bandit_lair = 188
+icon_new_icon = 189
